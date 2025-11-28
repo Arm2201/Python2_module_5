@@ -47,7 +47,7 @@ class HistoryIterator:
 
 def loading():
     print(CYAN + "Converting", end="")
-    for _ in range(3):
+    for _ in range(4):
         time.sleep(0.5)
         print(".", end="")
     print(RESET)
